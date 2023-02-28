@@ -12,13 +12,13 @@ The above commands will train the NLU and dialogue models, and start the chatbot
 
 # Functionality
 The chatbot can perform the following functions:
+
 ```
 Addition: Add two numbers together. For example, "Add 3 and 5".
 Subtraction: Subtract one number from another. For example, "Subtract 5 from 10".
 Multiplication: Multiply two numbers together. For example, "Multiply 2 by 6".
 Division: Divide one number by another. For example, "Divide 10 by 2".
-You can also ask the chatbot to display the available mathematical operations by saying "What operations can you perform?".'''
-
-
+You can also ask the chatbot to display the available mathematical operations by saying "What operations can you perform?".
+```
 # OUTPUT
 ![Output](https://user-images.githubusercontent.com/73024645/221766084-0d82abf8-c534-423e-becd-b5ca3b86cc59.jpg)
