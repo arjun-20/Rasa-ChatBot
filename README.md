@@ -20,3 +20,6 @@ Subtraction: Subtract one number from another. For example, "Subtract 5 from 10"
 Multiplication: Multiply two numbers together. For example, "Multiply 2 by 6".
 Division: Divide one number by another. For example, "Divide 10 by 2".
 You can also ask the chatbot to display the available mathematical operations by saying "What operations can you perform?".
+
+
+![Output](https://user-images.githubusercontent.com/73024645/221766084-0d82abf8-c534-423e-becd-b5ca3b86cc59.jpg)
