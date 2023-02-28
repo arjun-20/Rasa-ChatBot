@@ -1,0 +1,87 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - addition
+  - subtraction
+  - multiplication
+  - division
+  - questions
+  - help
+
+
+entities:
+  - number1
+  - number2
+
+
+
+# slots:
+#   number1:
+#     type: float
+#     #initial_value: 5
+    
+#     influence_conversation: true
+#     mappings:
+#       - type: from_entity
+#         entity: number1
+#         role: start
+
+#   number2:
+#     type: float
+#     influence_conversation: true
+#     #initial_value: 3
+
+#     mappings:
+#       - type: from_entity
+#         entity: number2
+#         role: end
+
+actions:
+  - action_add
+  - action_subtract
+  - action_multiply
+  - action_divide
+
+
+responses:
+  utter_greet:
+  - text: "Hey! I'm TuT your smart assistant"
+
+  utter_cheer_up:
+  - text: "Here is a joke to cheer you up: \nWhere are average things manufactured? \nThe satisfactory (*_*)"
+    
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."  
+
+  utter_questions:
+  - text: "I can do various mathematical operations like Additon, Subtraction, Multiplication, Division"
+
+  utter_help:
+  - text: "Example queries: 
+            \nAdd 5 and 8 
+            \nSubtract 9 and 6 
+            \nCan you multiply 8 and 9?
+            \nWhat is 200 divided by 5? etc...   "
+
+  # utter_message:
+  # - text: "The sum of {number1} and {number2} is {result}"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

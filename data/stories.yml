@@ -1,0 +1,51 @@
+version: "3.1"
+
+stories:
+
+- story: ques
+  steps:
+  - intent: questions
+  - action: utter_questions
+  - intent: help
+  - action: utter_help
+
+- story: add
+  steps:
+  - intent: addition
+  - action: action_add
+  
+
+- story: sub
+  steps:
+  - intent: subtraction
+  - action: action_subtract
+
+- story: multiply
+  steps:
+  - intent: multiplication
+  - action: action_multiply
+
+- story: div
+  steps:
+  - intent: division
+  - action: action_divide
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
