@@ -1,13 +1,13 @@
 
 
 # Basic Mathematical Operations Chatbot
-This is a simple chatbot that can perform basic mathematical operations such as addition, subtraction, multiplication, and division. 
+This is a simple chatbot that can perform basic mathematical operations such as addition, subtraction, multiplication, and division.<br> 
 The chatbot is built using RASA, an open-source framework for building conversational AI assistants.
 
 
 # Usage
-Train the dialogue model: rasa train
-Start the chatbot server: rasa run actions & rasa shell
+Train the dialogue model: rasa train<br>
+Start the chatbot server: rasa run actions & rasa shell<br>
 The above commands will train dialogue models, and start the chatbot server. You can then interact with the chatbot using the RASA shell.
 
 # Functionality
